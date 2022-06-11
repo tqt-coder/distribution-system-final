@@ -19,7 +19,7 @@ const App = () => {
   }
 
   return (
-    <AppContextProvider>
+    <AppContextProvider> 
       <Web3ReactProvider getLibrary={getLibrary}>
         <div>
           <Header />

@@ -11,7 +11,7 @@ module.exports = {
     development: {
       host: "127.0.0.1", // Localhost (default: none)
       port: 8545, // Standard Ethereum port (default: none)
-      network_id: "1654419458226", // Any network (default: none)
+      network_id: "1654862705635", // Any network (default: none)
     },
     ropsten: {
       provider: () =>
