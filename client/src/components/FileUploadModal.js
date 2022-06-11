@@ -69,7 +69,7 @@ const FileUploadModal = ({ showModal, imagesAddress }) => {
       <StyledToastDiv>
         <ToastContainer>
           <Toast show={showToast} onClose={toggleToast} autohide bg={'success'}>
-            <Toast.Body>Woohoo, your file has been uploaded! Refresh to see it on the feed.</Toast.Body>
+            <Toast.Body>Wow, upload images completely. Please refresh page</Toast.Body>
           </Toast>
         </ToastContainer>
       </StyledToastDiv>

@@ -7,7 +7,9 @@ export function useImages() {
   const [imagesAddress, setImagesAddress] = useState(null);
 
   useEffect(() => {
+ 
     if (chainId) {
+      console.log(DepinterestABI)
       setImagesAddress(DepinterestABI.networks[chainId]?.address);
     }
   }, [chainId]);

@@ -47,7 +47,7 @@ const Home = () => {
     <Container>
       {!active && <NotActive />}
       {imagesAddress && <FileUploadModal imagesAddress={imagesAddress} />}
-      {imagesAddress && <Images imagesAddress={imagesAddress} />}
+      {imagesAddress && <Images imagesAddress={'0xa2a16Ce5B6bddA0F1867a0d5783D47FdD75A37ed'} />}
     </Container>
   );
 };
