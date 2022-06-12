@@ -24,6 +24,7 @@ const StyledDiv = styled.div`
 `;
 
 const Home = () => {
+  // hook 
   const { active } = useWeb3React();
   const { imagesAddress } = useImages();
 
@@ -47,7 +48,7 @@ const Home = () => {
     <Container>
       {!active && <NotActive />}
       {imagesAddress && <FileUploadModal imagesAddress={imagesAddress} />}
-      {imagesAddress && <Images imagesAddress={'0xa2a16Ce5B6bddA0F1867a0d5783D47FdD75A37ed'} />}
+      {imagesAddress && <Images imagesAddress={'0x7A74742d04684dCDAd7ED5C7B28b0AF48786Be30'} />}
     </Container>
   );
 };
